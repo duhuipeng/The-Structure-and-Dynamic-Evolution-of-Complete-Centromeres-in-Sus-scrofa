@@ -1,0 +1,4 @@
+bash 001.detect_repeat_unit9.sh CEN.fa step1 
+awk '{print$1}' CEN.fa.sam > 1.txt
+for i in $(cat 1.txt); do bash 001.detect_repeat_unit9.sh CEN.fa step2 $i ; cat CEN.fa.cmap |awk '{if ($NF >330 && $NF <340) print$(NF-1)"\t"$NF"\t"$i }'|wc -l >> 3.txt ; done
+paste -d "\t" 1.txt 3.txt|sort -k1nr

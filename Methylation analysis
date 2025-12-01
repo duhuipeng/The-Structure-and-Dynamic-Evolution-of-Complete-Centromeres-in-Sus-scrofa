@@ -1,1 +1,2 @@
-
+The Megalodon (version 2.50) software tool is used for detecting CpG methylation：
+Megalodon --guppy-config dna_r9.4.1_450bps_fast.cfg --remora-modified-bases dna_r9.4.1_e8 fast 0.0.0 5hmc_5mc CG 0

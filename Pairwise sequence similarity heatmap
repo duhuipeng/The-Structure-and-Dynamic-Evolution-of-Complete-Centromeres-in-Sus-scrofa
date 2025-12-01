@@ -1,1 +1,4 @@
-
+minimap2  for  possible pairwise alignments: 
+minimap2 -f 0.0001 -t 32 -X --eqx -ax ava-ont
+sequence similarity from the alignment CIGAR strings and visualize using R：
+snakemake --use-conda --cores 100 --config sample=monomer /fasta={monomer.fasta} and snakemake --use-conda --cores 100 make_figures --config sample=monomer /fasta={monomer.fasta}.

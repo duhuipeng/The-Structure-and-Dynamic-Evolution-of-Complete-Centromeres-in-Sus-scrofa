@@ -4,6 +4,7 @@ Advanced long-read sequencing technologies have revolutionized genome assembly, 
 Visualization：StainedGlass HICAT NTRprism
 
 HiCAT：output the largest HOR coverage results
+
 -r is HiCAT result directory. e.g. ./HiCAT_out
 -s is which similarity be visualized. For example, 0 represents 0.94, 1 represents 0.945 and 2 represents 0.95 in default.
 -sp is the number of top HORs. default is 5.

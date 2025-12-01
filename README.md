@@ -17,6 +17,7 @@ Size of the window in which to breakup the input fasta before all by all alignme
 window: 5000
 
 NTRprism：Show the size of periodic unit structures
+
 NTRprism_ProcessFasta_v0.22.pl
 NTRprism_PlotSpectrum.r
 NTRprism_PlotHeatmap.r

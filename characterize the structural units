@@ -1,6 +1,5 @@
 HiCAT is used to characterize the internal unit structures of centromeres
 python HiCAT.py -i ./cen21.fa -t ./Sat.fa
-
 NTRprism was employed to characterize the periodic structural units
 perl NTRprism_ProcessFasta_v0.22.pl {test.fa} NTRprism_TEST 1 5000 30 6 0
 perl NTRprism_ProcessFasta_v0.22.pl {test.fa} NTRprism_TEST 100 5000 30 6 0
